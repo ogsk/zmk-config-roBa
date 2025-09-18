@@ -6,12 +6,13 @@
 &mt {
     flavor = "tap-unless-interrupted";
     tapping-term-ms = <170>;
-    quick-tap-ms = <0>;
+    quick-tap-ms = <120>;
 };
 
 &lt {
     flavor = "tap-unless-interrupted";
     tapping-term-ms = <170>;
+    quick-tap-ms = <120>;
 };
 
 &trackball {
