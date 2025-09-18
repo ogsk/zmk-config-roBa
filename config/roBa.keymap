@@ -71,7 +71,8 @@
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&to_layer_0>;
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <170>;
+            flavor = "tap-unless-interrupted";
         };
             // (未使用のカスタム hold_tap は削除)
     };
