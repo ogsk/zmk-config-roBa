@@ -95,10 +95,10 @@
 
         ARROW {
             bindings = <
-&kp LG(Q)  &kp LG(W)               &kp LC(UP_ARROW)    &kp LG(R)                &kp LG(T)                                    &kp LG(UP_ARROW)  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE  &kp LG(DOWN_ARROW)
-&kp LG(A)  &kp LG(LA(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LG(LA(RIGHT_ARROW))  &trans     &kp LS(LC(NUMBER_4))      &trans  &kp LC(A)         &kp LEFT       &kp DOWN      &kp RIGHT   &kp LC(E)
-&kp LG(Z)  &kp LG(X)               &kp LG(C)           &kp LG(V)                &kp LG(B)  &kp ESCAPE                &trans  &trans            &trans         &trans        &trans      &trans
-&trans     &trans                  &trans              &trans                   &trans     &trans                    &trans  &trans                                                     &trans
+&kp LG(Q)       &kp LG(W)               &kp LC(UP_ARROW)    &kp LG(R)                &kp LG(T)                                    &kp LG(UP_ARROW)  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE  &kp LG(DOWN_ARROW)
+&kp LG(A)       &kp LG(LA(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LG(LA(RIGHT_ARROW))  &trans     &kp LS(LC(NUMBER_4))      &trans  &kp LC(A)         &kp LEFT       &kp DOWN      &kp RIGHT   &kp LC(E)
+&kp LEFT_SHIFT  &kp LG(X)               &kp LG(C)           &kp LG(V)                &kp LG(B)  &trans                    &trans  &trans            &trans         &trans        &trans      &trans
+&trans          &trans                  &trans              &trans                   &trans     &trans                    &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
