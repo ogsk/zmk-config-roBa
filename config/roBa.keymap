@@ -40,6 +40,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <26 21>;
+        };
     };
 
     macros {
