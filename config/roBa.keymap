@@ -81,31 +81,31 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W      &kp E         &kp R             &kp T                                      &kp Y                &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S      &kp D         &kp F             &kp G        &kp LG(Z)      &kp LG(LS(Z))  &kp H                &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V             &lt 1 B      &kp ESCAPE     &lt 3 SPACE    &kp N                &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_COMMAND  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 SPACE  &lt 3 TAB      &kp BACKSPACE  &lt 2 RIGHT_COMMAND                             &mo 6
-            >;
-        };
-
-        SYMBOL {
-            bindings = <
-&kp EXCL        &kp AT_SIGN  &kp HASH   &kp DOLLAR         &kp PERCENT                      &trans     &kp BACKSPACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
-&kp SEMICOLON   &kp COLON    &kp SQT    &kp DOUBLE_QUOTES  &kp GRAVE    &trans      &trans  &kp ASTRK  &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS
-&kp LEFT_SHIFT  &trans       &kp CARET  &kp AMPERSAND      &kp TILDE    &trans      &trans  &trans     &kp HASH        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&trans          &trans       &trans     &trans             &trans       &trans      &trans  &trans                                                                  &trans
+&kp Q             &kp W      &kp E         &kp R               &kp T                                       &kp Y                &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S      &kp D         &kp F               &kp G        &kp LG(Z)       &kp LG(LS(Z))  &kp H                &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V               &kp B        &kp ESCAPE      &lt 3 SPACE    &kp N                &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_COMMAND  &kp LCTRL  &kp LEFT_ALT  &lt 1 LEFT_COMMAND  &lt 2 SPACE  &lt 3 TAB       &kp BACKSPACE  &lt 1 RIGHT_COMMAND                             &mo 6
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))         &kp LC(UP_ARROW)    &kp LC(TAB)              &trans                                         &kp PAGE_UP        &kp BACKSPACE  &kp UP_ARROW  &kp DELETE  &kp PAGE_DOWN
-&trans      &kp LG(LA(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LG(LA(RIGHT_ARROW))  &trans       &kp LS(LC(NUMBER_4))      &trans  &kp LC(A)          &kp LEFT       &kp DOWN      &kp RIGHT   &kp LC(E)
-&trans      &trans                  &trans              &trans                   &kp LS(TAB)  &kp TAB                   &trans  &trans             &trans         &trans        &trans      &trans
-&trans      &trans                  &trans              &trans                   &trans       &trans                    &trans  &kp RIGHT_COMMAND                                           &trans
+&kp LG(Q)  &kp LG(W)               &kp LC(UP_ARROW)    &kp LG(R)                &kp LG(T)                                    &kp LG(UP_ARROW)  &kp BACKSPACE  &kp UP_ARROW  &kp DELETE  &kp LG(DOWN_ARROW)
+&kp LG(A)  &kp LG(LA(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LG(LA(RIGHT_ARROW))  &trans     &kp LS(LC(NUMBER_4))      &trans  &kp LC(A)         &kp LEFT       &kp DOWN      &kp RIGHT   &kp LC(E)
+&kp LG(Z)  &kp LG(X)               &kp LG(C)           &kp LG(V)                &kp LG(B)  &kp ESCAPE                &trans  &trans            &trans         &trans        &trans      &trans
+&trans     &trans                  &trans              &trans                   &trans     &trans                    &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
+        SYMBOL {
+            bindings = <
+&kp EXCL        &kp AT_SIGN  &kp HASH   &kp DOLLAR         &kp PERCENT                      &trans     &kp BACKSPACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
+&kp SEMICOLON   &kp COLON    &kp SQT    &kp DOUBLE_QUOTES  &kp GRAVE    &trans      &trans  &kp ASTRK  &kp PLUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS
+&kp LEFT_SHIFT  &trans       &kp CARET  &kp AMPERSAND      &kp TILDE    &trans      &trans  &trans     &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&trans          &trans       &trans     &trans             &trans       &trans      &trans  &trans                                                                 &trans
+            >;
         };
 
         NUM_FUNC {
