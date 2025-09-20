@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Gui+Z
-  - Gui+Sft+Z
+  - {t: Gui+Sft+Z, h: '6'}
   - H
   - J
   - K
@@ -27,30 +27,74 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: SYMBOL}
+  - B
   - ESCAPE
-  - {t: SPACE, h: NUM_FUNC}
+  - {t: SPACE, h: ARROW}
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: '-', h: RIGHT SHIFT}
   - LEFT COMMAND
   - LCTRL
   - LEFT ALT
   - LEFT COMMAND
-  - {t: SPACE, h: ARROW}
-  - {t: TAB, h: NUM_FUNC}
+  - {t: SPACE, h: SYMBOL}
+  - {t: TAB, h: ARROW}
   - BACKSPACE
-  - {t: RIGHT COMMAND, h: ARROW}
-  - '6'
+  - {t: RIGHT COMMAND, h: NUM_FUNC}
+  - /
+  ARROW:
+  - Gui+Q
+  - Gui+W
+  - Ctl+UP ARROW
+  - Gui+R
+  - Gui+T
+  - Gui+UP ARROW
+  - BACKSPACE
+  - UP ARROW
+  - DELETE
+  - Gui+DOWN ARROW
+  - Gui+A
+  - Gui+Alt+LEFT ARROW
+  - Ctl+DOWN ARROW
+  - Gui+Alt+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - Sft+Ctl+4
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - LEFT
+  - DOWN
+  - RIGHT
+  - Ctl+E
+  - LEFT SHIFT
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYMBOL:
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - {t: ▽, type: trans}
+  - '!'
   - BACKSPACE
   - (
   - )
@@ -63,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '*'
-  - _
+  - +
   - '{'
   - '}'
   - '-'
@@ -71,10 +115,10 @@ layers:
   - {t: ▽, type: trans}
   - ^
   - '&'
-  - {t: '~', type: held}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '@'
   - '#'
   - '['
   - ']'
@@ -83,54 +127,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  ARROW:
-  - ESCAPE
-  - Ctl+Sft+TAB
-  - Ctl+UP ARROW
-  - Ctl+TAB
-  - {t: ▽, type: trans}
-  - PAGE UP
-  - BACKSPACE
-  - UP ARROW
-  - DELETE
-  - PAGE DOWN
-  - {t: ▽, type: trans}
-  - Gui+Alt+LEFT ARROW
-  - Ctl+DOWN ARROW
-  - Gui+Alt+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - Sft+Ctl+4
-  - {t: ▽, type: trans}
-  - Ctl+A
-  - LEFT
-  - DOWN
-  - RIGHT
-  - Ctl+E
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+TAB
-  - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT COMMAND
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM_FUNC:
   - '1'
@@ -161,7 +161,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: SPACE, type: held}
+  - SPACE
   - KP 0
   - KP 1
   - KP 2
@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
-  - ENTER
+  - {t: ENTER, type: held}
   - '*'
   MOUSE:
   - '&to_layer_0 Q'
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SCROLL, h: toggle}
+  - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -281,7 +281,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,7 +307,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [20, 21]
   k: '"'
+- p: [26, 21]
+  k: '-'
